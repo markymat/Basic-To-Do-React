@@ -31,7 +31,7 @@ class App extends React.Component {
           <input
             value={this.state.tempValue}
             onChange={this.onChange}
-            placeholder="Yours next ToDo"
+            placeholder="Yout next ToDo"
           />
           <button>Submit</button>
         </form>

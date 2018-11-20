@@ -2,3 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+.buttonDelete {
+  justify-content: right;
+  align-items: right;
+  width: 33px;
+  height: 33x;
+  position: absolute;
+  right: 0;
+}
