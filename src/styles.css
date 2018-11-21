@@ -2,11 +2,24 @@
   font-family: sans-serif;
   text-align: center;
 }
+.Container {
+  background: #2892d7;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  min-width: 114px;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin-left: 22%;
+  margin-right: 22%;
+  border-radius: 1%;
+}
 .buttonDelete {
   justify-content: right;
   align-items: right;
   width: 33px;
   height: 33x;
-  position: absolute;
-  right: 0;
+  position: fixed;
+  right: 25%;
 }
