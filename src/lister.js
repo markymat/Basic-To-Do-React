@@ -6,7 +6,7 @@ class Lister extends React.Component {
     super(props);
   }
   onClick = event => {
-    this.props.sendData(event.currentTarget.id);
+    this.props.sendData(event.target.id);
   };
   render() {
     return (
