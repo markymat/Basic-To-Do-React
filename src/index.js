@@ -12,6 +12,7 @@ class App extends React.Component {
       items: [] //all todo items, our further list
     };
   }
+  //takes this.state.te
   onChange = event => {
     this.setState({
       tempValue: event.target.value
@@ -24,7 +25,7 @@ class App extends React.Component {
       items: [...this.state.items, this.state.tempValue]
     });
   };
-  // Delete is getting value from
+  // Delete is getting value from Lister object props
   Delete = e => {
     let itemstoDelete = this.state.items;
     itemstoDelete.splice(e, 1);

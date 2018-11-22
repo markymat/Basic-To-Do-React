@@ -10,11 +10,11 @@ class Lister extends React.Component {
   };
   render() {
     return (
-      <ul>
+      <ul className="List">
         {this.props.items.map((item, index) => (
           <div>
             <li key={index}>
-              {item}
+              <input type="checkbox" key={index + "c"} /> {item}
               <button
                 key={index}
                 id={index}
